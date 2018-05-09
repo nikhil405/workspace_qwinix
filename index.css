@@ -1,0 +1,104 @@
+.bs-example{
+      margin: 20px;
+    }
+    @media screen and (min-width: 768px) {
+        .modal-dialog {
+          width: 700px; /* New width for default modal */
+        }
+        .modal-sm {
+          width: 350px; /* New width for small modal */
+        }
+    }
+    @media screen and (min-width: 992px) {
+        .modal-lg {
+          width: 950px; /* New width for large modal */
+        }
+    }
+    .modal-header{
+      background-color: grey;
+      text-align: center;
+    }
+   .dropdown {
+    border:2px solid #67E6EC;
+    width:120px;
+    color:#67E6EC;
+    margin-right: 6 0px;
+    text-align: center;
+    border-radius: 12px;
+}
+.modal-body{
+  padding: 0px;
+}
+.left{
+  margin-left: 170px;
+  margin-top: 20px;
+}
+.right{
+  margin-right: 150px;
+  margin-top: 20px;
+}
+.face{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.field{
+  width: 227px;
+}
+.field1{
+  margin-top: 10px;
+  width: 227px;
+  height: 80px;
+}
+.img-responsive{
+  width: 110px;
+  height: 111px;
+}
+.field2 {
+  width:85px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-top: 0px;
+border-color: #67E6EC;
+}
+
+.field3 {
+  width:85px;
+  margin-bottom: 0px;
+  margin-right: 13px;
+  margin-top: 0px;
+border-color: #67E6EC;
+}
+.text1{
+  margin-top: 4px;
+  height: 60px;
+}
+/*.text4{
+  width:40px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}*/
+.vl {
+    border-left: 1px solid black;
+    height: 500px;
+  }
+  .time{
+    margin-left: 60px;
+  }
+.t{
+    margin-top: 80px;
+    margin-left: 110px;
+    font-size: 16px;  
+}
+/*.text6{
+  width:40px;
+  margin-bottom: 0px;
+  margin-left: 155px
+}
+.text5{
+  width:40px;
+  margin-left:0px;
+}*/
+.d{
+  margin-top: 100px;
+  margin-left:85px; 
+}
