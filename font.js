@@ -50,7 +50,8 @@ $(document).ready(function(){
         $("#show3").hide();
 	 	$("#shows3").hide();
 	 	$("#delta3").show();
-	 });
+	});
+	
 // 	$("#show").hide();
 // 	$("#shows").hide();
 // 	$("#delta").show();
@@ -64,4 +65,7 @@ $(document).ready(function(){
 // 	 	$("#shows").hide();
 // 	 	$("#delta").show();
 // 	 });
+// $("#delt1".click(function(){
+// 	$("#delt1").remove();
+// });
 });

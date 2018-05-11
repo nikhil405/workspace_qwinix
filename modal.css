@@ -67,9 +67,13 @@ margin-top: 23px;
       margin-top: 18px;
     margin-left: -88px;
 }
+a.btn{
+      margin-left: 62px;
+      border-radius: 20px;
+}
 .btn {
-    margin-right: 100px;
-    margin-left: 157px;
+    margin-right: -294px;
+    margin-left: 350px;
     margin-top: 45px;
 }
 .dropdown-toggle{
@@ -82,19 +86,19 @@ margin-top: 23px;
 #image{
   border-color: : #67E6EC;
     width: 112px;
-    margin-right: 14px;
+    margin-left: 25px;
     border-radius: -25px;
     border: dotted;
     margin-top: 23px;
-    height: 175px;
+    height: 125px;
     margin-top: 51px;
 }
 .about{
-      margin-top: 60px;
+          margin-top: 38px;
     width: 263px;
     margin-left: -43px;
     height: 32px;
-}
+  }
 .description{
       margin-top: 5px;
     width: 263px;
@@ -103,19 +107,22 @@ margin-top: 23px;
 }
 
 .left{
-  margin-left: 73px;
-  margin-top: 20px;
+     margin-left: 166px;
+    margin-top: 0px;
+    padding-top: 12px;
+    font-size: 17px;
 }
 .right{
-  margin-right: 125px;
-  margin-top: 20px;
+  margin-left: 82px;
+    margin-bottom: 66px;
+    font-size: 15px;
 }
 .h{
   margin-left: -145px;
 }
-.date{
+/*.date{
   margin-left: -118px;
-}
+}*/
 .from {
   width: 85px;
   margin-bottom: 0px;
@@ -152,7 +159,7 @@ border-color: #67E6EC;
   margin-top: 50px;
     border-left: 1px solid black;
         height: 511px;
-    margin-left: 43px;
+    margin-left: 95px;
     margin-bottom: 80px;
   }
   .time{
@@ -167,18 +174,13 @@ border-color: #67E6EC;
 }
 
 .t{
-    
-    margin-left: 110px;
-    font-size: 16px; 
-    margin-top: 84px; 
+    margin-left: 192px;
+    font-size: 18px;
+    margin-top: 84px;
 }
 
 .d{
-  margin-top: 100px;
-  margin-left:-117px; 
+      margin-top: 173px;
+    margin-left: 111px;
+    font-size: 18px;
 }
-.display{
-  margin-top: -371px;
-    margin-left: -550px;
-}
- 

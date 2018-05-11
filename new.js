@@ -140,12 +140,3 @@ $(document).ready(function(){
         $('.single').hide();
     });
     });
-var from = $(".from").val();
-var to = $(".to").val();
-
-if(Date.parse(from) <= Date.parse(to)){
-   alert("Invalid Date Range");
-}
-else{
-   alert("Valid date Range");
-}
