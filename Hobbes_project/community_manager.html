@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset = "utf-8">
+  <title>Markup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/comunity.css">
+  <!-- <link rel="stylesheet" type="text/css" href="event.css"> -->
+</head>
+<body>
+  <nav class="navbar navbar-default ">
+    <div class="container-fluid">
+      <ul class=" nav navbar-nav navbar-header">
+        <li class="hamb">
+          <span class="glyphicon glyphicon-menu-hamburger "></span>
+        </li>
+        <li class="head">Community</li>
+      </ul>
+          <img src="assets1/logo.png" id = "img-cnt" alt = "qhub" class="responsive">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="bell"><img src="assets1/Notification.svg"></li>
+        <li class="out">Logout</li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-9 col-lg-9">
+        <div class=" widget row">
+          <div class="col-sm-6 col-lg-6 col-md-6">
+            <div class="grtng"></div>
+          </div>
+          <div class="col-sm-2 col-md-2 col-lg-2">
+            <div >
+              <p id="time"></p>
+            </div>
+          </div>
+          <div class="col-sm-2 col-md-2 col-lg-2">
+            <div id = "items-fits">
+              <p id = "temp-fit">TEMP</p> 
+              <img src = "assets1/temp.png">
+              <p>85 F</p>
+            </div>
+          </div>
+          <div class="col-sm-2 col-md-2 col-lg-2">
+            <div class="signal">
+              <p>SIGNAL</p>
+              <img src = "assets1/Signal.png">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 col-md-12">
+            <img src="assets1/Community.svg">
+            <img src="assets1/EVENTS.png">
+              <!-- <span class="events">Events</span> -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-8 col-sm-8 col-lg-8" id="bgc">
+            <ul class="event-list">
+              <li class="event">
+                <div class="col-md-1 col-sm-1 col-lg-1" id="dis">
+                  <time>
+                    <span class="day">Fri</span>
+                    <span class="date">4</span>
+                    <span class="month">May</span>
+                  </time>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-3">
+                  <img alt="Musical Festival" id="img-fit" src="assets1/download (1).jpeg">
+                </div>
+                <div class=" col-md-6 col-lg-6 col-sm-6">
+                  <h5 class="title">New Event Header</h5>
+                  <p class="desc">"The Coachella Valley Music and Arts Festival is a three-day annual music and arts festival, organized by Goldenvoice and held at the Empire Polo Fields in Indio."</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-sm-2" id="delt">
+                  <img src="assets1/Edit Button.svg" id="show">
+                  <img src="assets1/Delete Button.svg" id="shows">
+                  <p id="delta">10:30-7:30 p.m</p>
+                </div>
+              </li>
+              <li id="list1">
+                <div class="col-md-1 col-lg-1 col-sm-1" id="dis">
+                  <time>
+                    <span class="day">Wed</span>
+                    <span class="date">14</span>
+                    <span class="month">Mar</span>
+                  </time>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3">
+                  <img alt="Burning of woods" id="img-fit" src="assets1/books.jpg">
+                </div>
+                <div class=" col-md-6 col-sm-6 col-lg-6">
+                  <h5 class="title">New Event Header</h5>
+                  <p class="desc">"The Carnival in Rio de Janeiro is a world famous festival held before Lent every year and considered the biggest carnival in the world with two million people per day on the streets. The first festivals of Rio date back to 1723.holiday.</p>
+                </div>
+                <div class="col-md-2 col-sm-2 col-lg-2" id="delt3">
+                  <img src="assets1/Edit Button.svg" id="show3">
+                  <img src="assets1/Delete Button.svg" id="shows3">
+                  <p id="delta3">10:30-7:30 p.m</p>
+                </div>
+              </li>
+              <li id="list2"> 
+                <div class="col-md-1 col-sm-1 col-lg-1" id="dis">
+                  <time>
+                    <span class="day">Sat</span>
+                    <span class="date">25</span>
+                    <span class="month">Aug</span>
+                  </time>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3">
+                  <img alt="Burning of woods" id="img-fit" src="assets1/chicken.JPG">
+                </div>
+                <div class=" col-md-6 col-sm-6 col-lg-6">
+                  <h5 class="title">New Event Header</h5>
+                  <p class="desc">"Burning Man is  an annual event held in the Black Rock Desert in northern Nevada, in the United States. The event starts on the Monday before and ends on the day of the American Labor Day holiday. </p>
+                </div>
+                <div class="col-md-2 col-sm-2 col-lg-2" id="delt2">
+                    <img src="assets1/Edit Button.svg" id="show2">
+                  <img src="assets1/Delete Button.svg" id="shows2">
+                  <p id="delta2">10:30-7:30 p.m</p>
+                </div>
+              </li>
+              <li id="list3">
+                <div class="col-md-1 col-sm-1 col-lg-1" id="dis">
+                  <time>
+                    <span class="day">Sat</span>
+                    <span class="date">30</span>
+                    <span class="month">June</span>
+                  </time>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3">
+                  <img alt="Music and art Festival" id="img-fit" src="assets1/images (1).jpeg">
+                </div>
+                <div class=" col-md-6 col-sm-6 col-lg-6">
+                  <h5 class="title">New Event Header</h5>
+                  <p class="desc">"The Glastonbury Festival of Contemporary Performing Arts, commonly abbreviated to Glastonbury or Glasto, is the largest green field open-air music and performing arts festival in the world."</p>
+                </div>
+                <div class="col-md-2 col-sm-2 col-lg-2" id="delt1">
+                  <img src="assets1/Edit Button.svg" id="show1">
+                  <img src="assets1/Delete Button.svg" id="shows1">
+                  <p id="delta1">10:30-7:30 p.m</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 col-lg-3 col-md-3 col-xs-3">
+        <h4 class="cal">Events Calender</h4>
+        <div id="v-cal">
+          <div class="vcal-header">
+            <button class="vcal-btn" data-calendar-toggle="previous">
+              <svg height="24" version="1.1" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+              </svg>
+            </button>
+            <div class="vcal-header__label" data-calendar-label="month">
+                March 2017
+            </div>
+            <button class="vcal-btn" data-calendar-toggle="next">
+              <svg height="24" version="1.1" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="vcal-week">
+            <span>M</span>
+            <span>T</span>
+            <span>W</span>
+            <span>T</span>
+            <span>F</span>
+            <span>S</span>
+            <span>S</span>
+          </div>
+          <div class="vcal-body" data-calendar-area="month"></div>
+        </div>
+        <a href="#largeModal" class="btn btn-lg btn-primary" data-toggle="modal"> + Create an Event</a>
+        <div id="largeModal" class="modal">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"> Create an Event</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-sm-5 col-md-5 col-lg-5">
+                    <h5 class="type">CHOOSE A TAG</h5>
+                    <div class="row">
+                      <div class="col-lg-12 col-sm-12 col-md-12">
+                        <select class="selectpicker">
+                          <option id="align">Happy hours</option>
+                          <option>Happy day</option>
+                          <option>Happy moment</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4 col-md-4 col-lg-4">
+                        <button id="image">image</button>
+                      </div>
+                      <div class="col-sm-8 col-md-8 col-lg-8">
+                        <input type="text" class="about" placeholder="What is it about">
+                        <input type="text" class="description" placeholder="a short description about the event">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h4 class="t">Time</h4>
+                        <input type="text" id="from1" name="from">
+                        <label for="to">To</label>
+                        <input type="text" id="to1" name="to">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-2 col-md-2 col-lg-2">
+                    <div class="vl"></div>
+                  </div>
+                  <div class="col-sm-5 col-md-5 col-lg-5">
+                    <h5 class="type1">TYPE OF EVENT</h5>
+                    <select class="selectpicker1">
+                      <option>Single Event</option>
+                      <option class="repeat">periodic</option>
+                    </select>
+                    <div class="single">
+                      <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                          <h4 class="d">Date</h4>
+                          <input type="text" id="from">
+                          <label for="to">To</label>
+                          <input type="text" id="to">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="period">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                          <h5 class="type2">REPEAT PATTERN</h5>
+                          <div class="dropdown2">
+                            <p class=" dropdown-toggle1" type="text" data-toggle="dropdown">yearly
+                              <span class="caret"></span>
+                            </p>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">month</a></li>
+                            </ul>
+                          </div>
+                          <div id="check">
+                            <input type="checkbox" name="year"> Once in Year
+                          </div>
+                          <input type="text" class="select" placeholder="select data">
+                        </div>
+                      </div>
+                    </div>
+                    <button type="button" class="save btn-primary"  data-dismiss="modal">Save
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/comunity.js"></script>
+</html>
