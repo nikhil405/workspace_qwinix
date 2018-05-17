@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="112px" height="36px" viewBox="0 0 112 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Community/Delete Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="112" height="36" rx="18"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="112" height="36" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Community/Delete-Button">
+            <g id="Delete-Button">
+                <use id="Rectangle-9-Copy" stroke="#DF5D5D" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                <text id="Delete" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#DF5D5D">
+                    <tspan x="43" y="23">Delete</tspan>
+                </text>
+            </g>
+            <g id="Cross" transform="translate(17.000000, 11.000000)" fill="#DF5D5D">
+                <path d="M11.6631915,13.7705024 L0.303008818,1.33920558 C0.0484692968,1.06046258 0.0484693049,0.608530919 0.303008836,0.329787936 C0.557548367,0.0510449538 0.970238484,0.0510449449 1.22477802,0.329787916 L12.5766565,12.7701786 C12.7608305,12.972991 12.8157501,13.2770946 12.7159374,13.5414108 C12.6161246,13.8057271 12.3811113,13.9785329 12.119924,13.979661 C11.9483957,13.9789172 11.7841405,13.9036973 11.6631915,13.7705024 Z" id="Shape"></path>
+                <path d="M0.765622632,13.979661 C0.502923275,13.9822238 0.264828187,13.8107708 0.162881817,13.5456254 C0.0609354475,13.28048 0.115331415,12.9741625 0.300585915,12.7701786 L11.6607686,0.329787929 C11.9153081,0.0510449456 12.3279982,0.051044949 12.5825378,0.329787936 C12.8370773,0.608530924 12.8370773,1.0604626 12.5825378,1.33920559 L1.22235512,13.7705024 C1.10140613,13.9036973 0.937150851,13.9789172 0.765622632,13.979661 L0.765622632,13.979661 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
